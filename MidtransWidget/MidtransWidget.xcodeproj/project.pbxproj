@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0093D9591DC33EB700393334 /* MidtransWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 0093D9571DC33EB700393334 /* MidtransWidget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0093D9611DC33EC300393334 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093D9601DC33EC300393334 /* UIKit.framework */; };
+		0093D9631DC33ECA00393334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093D9621DC33ECA00393334 /* Foundation.framework */; };
+		0093D9651DC33ED000393334 /* libPods-MidtransCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093D9641DC33ED000393334 /* libPods-MidtransCoreKit.a */; };
+		0093D9691DC33F0F00393334 /* WidgetBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0093D9671DC33F0F00393334 /* WidgetBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0093D96A1DC33F0F00393334 /* WidgetBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093D9681DC33F0F00393334 /* WidgetBaseViewController.m */; };
+		0093D9701DC33FCD00393334 /* MidtransWidgetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0093D96D1DC33FCD00393334 /* MidtransWidgetViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0093D9711DC33FCD00393334 /* MidtransWidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093D96E1DC33FCD00393334 /* MidtransWidgetViewController.m */; };
+		0093D9721DC33FCD00393334 /* WidgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0093D96F1DC33FCD00393334 /* WidgetViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0093D9541DC33EB700393334 /* MidtransWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MidtransWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0093D9571DC33EB700393334 /* MidtransWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MidtransWidget.h; sourceTree = "<group>"; };
+		0093D9581DC33EB700393334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0093D9601DC33EC300393334 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0093D9621DC33ECA00393334 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0093D9641DC33ED000393334 /* libPods-MidtransCoreKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-MidtransCoreKit.a"; path = "/Users/arie/Documents/work/office/Veritrans-ios-sdk/Pods/../build/Debug-iphoneos/libPods-MidtransCoreKit.a"; sourceTree = "<absolute>"; };
+		0093D9671DC33F0F00393334 /* WidgetBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetBaseViewController.h; sourceTree = "<group>"; };
+		0093D9681DC33F0F00393334 /* WidgetBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetBaseViewController.m; sourceTree = "<group>"; };
+		0093D96D1DC33FCD00393334 /* MidtransWidgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidtransWidgetViewController.h; sourceTree = "<group>"; };
+		0093D96E1DC33FCD00393334 /* MidtransWidgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidtransWidgetViewController.m; sourceTree = "<group>"; };
+		0093D96F1DC33FCD00393334 /* WidgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WidgetViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0093D9501DC33EB700393334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0093D9651DC33ED000393334 /* libPods-MidtransCoreKit.a in Frameworks */,
+				0093D9631DC33ECA00393334 /* Foundation.framework in Frameworks */,
+				0093D9611DC33EC300393334 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0093D94A1DC33EB700393334 = {
+			isa = PBXGroup;
+			children = (
+				0093D9561DC33EB700393334 /* MidtransWidget */,
+				0093D9551DC33EB700393334 /* Products */,
+				0093D95F1DC33EC300393334 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0093D9551DC33EB700393334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0093D9541DC33EB700393334 /* MidtransWidget.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0093D9561DC33EB700393334 /* MidtransWidget */ = {
+			isa = PBXGroup;
+			children = (
+				0093D9661DC33EFA00393334 /* Controller */,
+				0093D9571DC33EB700393334 /* MidtransWidget.h */,
+				0093D9581DC33EB700393334 /* Info.plist */,
+			);
+			path = MidtransWidget;
+			sourceTree = "<group>";
+		};
+		0093D95F1DC33EC300393334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0093D9641DC33ED000393334 /* libPods-MidtransCoreKit.a */,
+				0093D9621DC33ECA00393334 /* Foundation.framework */,
+				0093D9601DC33EC300393334 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0093D9661DC33EFA00393334 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0093D96C1DC33F2B00393334 /* Widget */,
+				0093D96B1DC33F2300393334 /* Base */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0093D96B1DC33F2300393334 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0093D9671DC33F0F00393334 /* WidgetBaseViewController.h */,
+				0093D9681DC33F0F00393334 /* WidgetBaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		0093D96C1DC33F2B00393334 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				0093D96D1DC33FCD00393334 /* MidtransWidgetViewController.h */,
+				0093D96E1DC33FCD00393334 /* MidtransWidgetViewController.m */,
+				0093D96F1DC33FCD00393334 /* WidgetViewController.xib */,
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0093D9511DC33EB700393334 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0093D9691DC33F0F00393334 /* WidgetBaseViewController.h in Headers */,
+				0093D9701DC33FCD00393334 /* MidtransWidgetViewController.h in Headers */,
+				0093D9591DC33EB700393334 /* MidtransWidget.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0093D9531DC33EB700393334 /* MidtransWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0093D95C1DC33EB700393334 /* Build configuration list for PBXNativeTarget "MidtransWidget" */;
+			buildPhases = (
+				0093D94F1DC33EB700393334 /* Sources */,
+				0093D9501DC33EB700393334 /* Frameworks */,
+				0093D9511DC33EB700393334 /* Headers */,
+				0093D9521DC33EB700393334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MidtransWidget;
+			productName = MidtransWidget;
+			productReference = 0093D9541DC33EB700393334 /* MidtransWidget.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0093D94B1DC33EB700393334 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Arie;
+				TargetAttributes = {
+					0093D9531DC33EB700393334 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G92YEQF267;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0093D94E1DC33EB700393334 /* Build configuration list for PBXProject "MidtransWidget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0093D94A1DC33EB700393334;
+			productRefGroup = 0093D9551DC33EB700393334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0093D9531DC33EB700393334 /* MidtransWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0093D9521DC33EB700393334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0093D9721DC33FCD00393334 /* WidgetViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0093D94F1DC33EB700393334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0093D9711DC33FCD00393334 /* MidtransWidgetViewController.m in Sources */,
+				0093D96A1DC33F0F00393334 /* WidgetBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0093D95A1DC33EB700393334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0093D95B1DC33EB700393334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0093D95D1DC33EB700393334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G92YEQF267;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MidtransWidget/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.midtrans.MidtransWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0093D95E1DC33EB700393334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G92YEQF267;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MidtransWidget/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.midtrans.MidtransWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0093D94E1DC33EB700393334 /* Build configuration list for PBXProject "MidtransWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0093D95A1DC33EB700393334 /* Debug */,
+				0093D95B1DC33EB700393334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0093D95C1DC33EB700393334 /* Build configuration list for PBXNativeTarget "MidtransWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0093D95D1DC33EB700393334 /* Debug */,
+				0093D95E1DC33EB700393334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0093D94B1DC33EB700393334 /* Project object */;
+}

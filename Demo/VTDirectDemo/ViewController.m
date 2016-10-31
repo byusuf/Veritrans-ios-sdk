@@ -13,7 +13,7 @@
 #import <MidtransKit/MidtransKit.h>
 #import <MidtransCoreKit/MidtransCoreKit.h>
 #import <MBProgressHUD.h>
-
+#import "WidgetViewController.h"
 @implementation NSString (random)
 
 + (NSString *)randomWithLength:(NSUInteger)length {
@@ -94,8 +94,19 @@
                                    [view dismissViewControllerAnimated:YES completion:nil];
                                    
                                }];
-    [view addAction:uiFlow];
+
+    UIAlertAction* midtransWidget = [UIAlertAction
+                               actionWithTitle:@"Widget Demo"
+                               style:UIAlertActionStyleDefault
+                               handler:^(UIAlertAction * action)
+                               {
+                                   [self initWidget];
+                                   [view dismissViewControllerAnimated:YES completion:nil];
+
+                               }];
+[view addAction:uiFlow];
     [view addAction:coreFlow];
+     [view addAction:midtransWidget];
     [self presentViewController:view animated:YES completion:nil];
     
 }
@@ -129,6 +140,10 @@
         OptionViewController *option = [self.storyboard instantiateViewControllerWithIdentifier:@"OptionViewController"];
         [self.navigationController pushViewController:option animated:YES];
     }
+}
+- (void)initWidget {
+    WidgetViewController *widgetVC = [[WidgetViewController alloc] initWithNibName:@"WidgetViewController" bundle:nil];
+    [self.navigationController pushViewController:widgetVC animated:YES];
 }
 - (void)initUIFlow {
     [CC_CONFIG setTokenStorageEnabled:YES];
