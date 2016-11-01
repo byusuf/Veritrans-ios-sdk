@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WidgetView">
+            <rect key="frame" x="0.0" y="0.0" width="482" height="226"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7TM-EY-F29">
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Card Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FQg-Rf-Trl">
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Card Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iGf-pN-olL">
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Card Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p1A-Oj-qXh">
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jum-Iw-2Zq">
+                            <color key="backgroundColor" red="0.1058823529" green="0.56470588239999997" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="PAY NOW">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="p1A-Oj-qXh" firstAttribute="leading" secondItem="7TM-EY-F29" secondAttribute="leading" constant="8" id="9lI-CW-q6C"/>
+                        <constraint firstItem="p1A-Oj-qXh" firstAttribute="top" secondItem="iGf-pN-olL" secondAttribute="bottom" constant="8" id="BdX-TB-lhh"/>
+                        <constraint firstAttribute="trailing" secondItem="FQg-Rf-Trl" secondAttribute="trailing" constant="8" id="NSl-if-E79"/>
+                        <constraint firstItem="iGf-pN-olL" firstAttribute="top" secondItem="FQg-Rf-Trl" secondAttribute="bottom" constant="8" id="PVT-R5-Sba"/>
+                        <constraint firstAttribute="trailing" secondItem="p1A-Oj-qXh" secondAttribute="trailing" constant="8" id="Qj1-9H-3ga"/>
+                        <constraint firstAttribute="trailing" secondItem="iGf-pN-olL" secondAttribute="trailing" constant="8" id="V2k-9F-HXp"/>
+                        <constraint firstItem="Jum-Iw-2Zq" firstAttribute="leading" secondItem="7TM-EY-F29" secondAttribute="leading" constant="8" id="V5j-ef-Xav"/>
+                        <constraint firstItem="iGf-pN-olL" firstAttribute="leading" secondItem="7TM-EY-F29" secondAttribute="leading" constant="8" id="abr-Lb-aVg"/>
+                        <constraint firstItem="FQg-Rf-Trl" firstAttribute="leading" secondItem="7TM-EY-F29" secondAttribute="leading" constant="8" id="r95-tL-23R"/>
+                        <constraint firstItem="FQg-Rf-Trl" firstAttribute="top" secondItem="7TM-EY-F29" secondAttribute="top" constant="20" id="ro3-Dn-6KQ"/>
+                        <constraint firstItem="Jum-Iw-2Zq" firstAttribute="top" secondItem="p1A-Oj-qXh" secondAttribute="bottom" constant="16" id="s6h-Cs-aHz"/>
+                        <constraint firstAttribute="trailing" secondItem="Jum-Iw-2Zq" secondAttribute="trailing" constant="8" id="vNu-5i-NnM"/>
+                        <constraint firstAttribute="bottom" secondItem="Jum-Iw-2Zq" secondAttribute="bottom" constant="58" id="y1o-j5-R1o"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7TM-EY-F29" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="VMX-8X-usd"/>
+                <constraint firstItem="7TM-EY-F29" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Var-qx-F67"/>
+                <constraint firstAttribute="bottom" secondItem="7TM-EY-F29" secondAttribute="bottom" id="dpu-sj-30Z"/>
+                <constraint firstAttribute="trailing" secondItem="7TM-EY-F29" secondAttribute="trailing" id="z2o-p7-8BR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cardNumberTextField" destination="FQg-Rf-Trl" id="beG-kh-EEq"/>
+            </connections>
+            <point key="canvasLocation" x="-80" y="-55"/>
+        </view>
+    </objects>
+</document>

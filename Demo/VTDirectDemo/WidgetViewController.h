@@ -9,6 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface WidgetViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIView *widgetView;
 
 @end

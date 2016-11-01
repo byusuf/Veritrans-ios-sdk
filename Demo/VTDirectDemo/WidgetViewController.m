@@ -9,6 +9,7 @@
 #import "WidgetViewController.h"
 #import <MidtransWidget/MidtransWidget.h>
 @interface WidgetViewController ()
+@property (weak, nonatomic) IBOutlet UIView *viewContainer;
 
 @end
 
@@ -16,8 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    MidtransWidgetViewController *masjidHomeVC = [[MidtransWidgetViewController alloc] init];
-    [self.widgetView addSubview:masjidHomeVC.view];
+    WidgetView *widget = [[WidgetView alloc] init];
+    [self.viewContainer addSubview:widget];
 }
 
 - (void)didReceiveMemoryWarning {

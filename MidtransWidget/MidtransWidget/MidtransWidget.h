@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MidtransWidgetViewController.h"
+#import "WidgetView.h"
 //! Project version number for MidtransWidget.
 FOUNDATION_EXPORT double MidtransWidgetVersionNumber;
 

@@ -13,9 +13,9 @@
 		0093D9651DC33ED000393334 /* libPods-MidtransCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093D9641DC33ED000393334 /* libPods-MidtransCoreKit.a */; };
 		0093D9691DC33F0F00393334 /* WidgetBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0093D9671DC33F0F00393334 /* WidgetBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0093D96A1DC33F0F00393334 /* WidgetBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093D9681DC33F0F00393334 /* WidgetBaseViewController.m */; };
-		0093D9701DC33FCD00393334 /* MidtransWidgetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0093D96D1DC33FCD00393334 /* MidtransWidgetViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0093D9711DC33FCD00393334 /* MidtransWidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093D96E1DC33FCD00393334 /* MidtransWidgetViewController.m */; };
-		0093D9721DC33FCD00393334 /* WidgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0093D96F1DC33FCD00393334 /* WidgetViewController.xib */; };
+		00C685741DC73B010008D08F /* WidgetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C685731DC73B010008D08F /* WidgetView.xib */; };
+		00C685771DC73B110008D08F /* WidgetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C685751DC73B110008D08F /* WidgetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00C685781DC73B110008D08F /* WidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C685761DC73B110008D08F /* WidgetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		0093D9641DC33ED000393334 /* libPods-MidtransCoreKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-MidtransCoreKit.a"; path = "/Users/arie/Documents/work/office/Veritrans-ios-sdk/Pods/../build/Debug-iphoneos/libPods-MidtransCoreKit.a"; sourceTree = "<absolute>"; };
 		0093D9671DC33F0F00393334 /* WidgetBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetBaseViewController.h; sourceTree = "<group>"; };
 		0093D9681DC33F0F00393334 /* WidgetBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetBaseViewController.m; sourceTree = "<group>"; };
-		0093D96D1DC33FCD00393334 /* MidtransWidgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidtransWidgetViewController.h; sourceTree = "<group>"; };
-		0093D96E1DC33FCD00393334 /* MidtransWidgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidtransWidgetViewController.m; sourceTree = "<group>"; };
-		0093D96F1DC33FCD00393334 /* WidgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WidgetViewController.xib; sourceTree = "<group>"; };
+		00C685731DC73B010008D08F /* WidgetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WidgetView.xib; sourceTree = "<group>"; };
+		00C685751DC73B110008D08F /* WidgetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetView.h; sourceTree = "<group>"; };
+		00C685761DC73B110008D08F /* WidgetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +104,9 @@
 		0093D96C1DC33F2B00393334 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
-				0093D96D1DC33FCD00393334 /* MidtransWidgetViewController.h */,
-				0093D96E1DC33FCD00393334 /* MidtransWidgetViewController.m */,
-				0093D96F1DC33FCD00393334 /* WidgetViewController.xib */,
+				00C685731DC73B010008D08F /* WidgetView.xib */,
+				00C685751DC73B110008D08F /* WidgetView.h */,
+				00C685761DC73B110008D08F /* WidgetView.m */,
 			);
 			name = Widget;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0093D9691DC33F0F00393334 /* WidgetBaseViewController.h in Headers */,
-				0093D9701DC33FCD00393334 /* MidtransWidgetViewController.h in Headers */,
+				00C685771DC73B110008D08F /* WidgetView.h in Headers */,
 				0093D9591DC33EB700393334 /* MidtransWidget.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,7 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0093D9721DC33FCD00393334 /* WidgetViewController.xib in Resources */,
+				00C685741DC73B010008D08F /* WidgetView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0093D9711DC33FCD00393334 /* MidtransWidgetViewController.m in Sources */,
+				00C685781DC73B110008D08F /* WidgetView.m in Sources */,
 				0093D96A1DC33F0F00393334 /* WidgetBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
