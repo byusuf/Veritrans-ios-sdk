@@ -11,6 +11,7 @@
 		00598E9A1D76AFBA006241BF /* SamplePaymentListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00598E901D76AB39006241BF /* SamplePaymentListViewController.xib */; };
 		0093D9771DC340C000393334 /* WidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093D9751DC340C000393334 /* WidgetViewController.m */; };
 		0093D9781DC340C000393334 /* WidgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0093D9761DC340C000393334 /* WidgetViewController.xib */; };
+		00B70C341DC852B400B9F679 /* MidtransWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B70C331DC852B400B9F679 /* MidtransWidget.framework */; };
 		00EC17921D7D297300D076D2 /* BankTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EC17901D7D297300D076D2 /* BankTransferViewController.m */; };
 		00EC17931D7D297300D076D2 /* BankTransferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EC17911D7D297300D076D2 /* BankTransferViewController.xib */; };
 		00EC17981D7D407400D076D2 /* EpaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EC17961D7D407400D076D2 /* EpaymentViewController.m */; };
@@ -81,6 +82,7 @@
 		0093D9741DC340C000393334 /* WidgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetViewController.h; sourceTree = "<group>"; };
 		0093D9751DC340C000393334 /* WidgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetViewController.m; sourceTree = "<group>"; };
 		0093D9761DC340C000393334 /* WidgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WidgetViewController.xib; sourceTree = "<group>"; };
+		00B70C331DC852B400B9F679 /* MidtransWidget.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MidtransWidget.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/MidtransSDK-awrumkkofuqhomahvqbtrojyozvz/Build/Products/Debug-iphonesimulator/MidtransWidget.framework"; sourceTree = "<group>"; };
 		00EC178F1D7D297300D076D2 /* BankTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankTransferViewController.h; sourceTree = "<group>"; };
 		00EC17901D7D297300D076D2 /* BankTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankTransferViewController.m; sourceTree = "<group>"; };
 		00EC17911D7D297300D076D2 /* BankTransferViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankTransferViewController.xib; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B70C341DC852B400B9F679 /* MidtransWidget.framework in Frameworks */,
 				E5AA566A1DA2333F00DAD851 /* libMidtransKit.a in Frameworks */,
 				E52940881CFEC70B000180D3 /* Security.framework in Frameworks */,
 				E52940861CFEC705000180D3 /* QuartzCore.framework in Frameworks */,
@@ -300,6 +303,7 @@
 		60DE1F59509B50552B10D5AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00B70C331DC852B400B9F679 /* MidtransWidget.framework */,
 				E57A161D1DAB012C00324B9C /* MidtransKit.bundle */,
 				E5AA566B1DA2334600DAD851 /* libMidtransCoreKit.a */,
 				E5AA56691DA2333F00DAD851 /* libMidtransKit.a */,

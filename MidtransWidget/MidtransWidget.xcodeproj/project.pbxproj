@@ -11,9 +11,12 @@
 		0093D9611DC33EC300393334 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093D9601DC33EC300393334 /* UIKit.framework */; };
 		0093D9631DC33ECA00393334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093D9621DC33ECA00393334 /* Foundation.framework */; };
 		0093D9651DC33ED000393334 /* libPods-MidtransCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093D9641DC33ED000393334 /* libPods-MidtransCoreKit.a */; };
-		0093D9691DC33F0F00393334 /* WidgetBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0093D9671DC33F0F00393334 /* WidgetBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0093D96A1DC33F0F00393334 /* WidgetBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0093D9681DC33F0F00393334 /* WidgetBaseViewController.m */; };
-		00C685741DC73B010008D08F /* WidgetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C685731DC73B010008D08F /* WidgetView.xib */; };
+		00B70C321DC851A300B9F679 /* WidgetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C685731DC73B010008D08F /* WidgetView.xib */; };
+		00B70C3D1DC86AB400B9F679 /* MidtransWidgetCustomTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B70C3B1DC86AB400B9F679 /* MidtransWidgetCustomTextField.h */; };
+		00B70C3E1DC86AB400B9F679 /* MidtransWidgetCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B70C3C1DC86AB400B9F679 /* MidtransWidgetCustomTextField.m */; };
+		00B70C421DC86B6600B9F679 /* MidtransWidgetLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B70C401DC86B6600B9F679 /* MidtransWidgetLabel.h */; };
+		00B70C431DC86B6600B9F679 /* MidtransWidgetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B70C411DC86B6600B9F679 /* MidtransWidgetLabel.m */; };
+		00B70C451DC86D9F00B9F679 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B70C441DC86D9F00B9F679 /* Media.xcassets */; };
 		00C685771DC73B110008D08F /* WidgetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C685751DC73B110008D08F /* WidgetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00C685781DC73B110008D08F /* WidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C685761DC73B110008D08F /* WidgetView.m */; };
 /* End PBXBuildFile section */
@@ -25,8 +28,11 @@
 		0093D9601DC33EC300393334 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0093D9621DC33ECA00393334 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0093D9641DC33ED000393334 /* libPods-MidtransCoreKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-MidtransCoreKit.a"; path = "/Users/arie/Documents/work/office/Veritrans-ios-sdk/Pods/../build/Debug-iphoneos/libPods-MidtransCoreKit.a"; sourceTree = "<absolute>"; };
-		0093D9671DC33F0F00393334 /* WidgetBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetBaseViewController.h; sourceTree = "<group>"; };
-		0093D9681DC33F0F00393334 /* WidgetBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetBaseViewController.m; sourceTree = "<group>"; };
+		00B70C3B1DC86AB400B9F679 /* MidtransWidgetCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidtransWidgetCustomTextField.h; sourceTree = "<group>"; };
+		00B70C3C1DC86AB400B9F679 /* MidtransWidgetCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidtransWidgetCustomTextField.m; sourceTree = "<group>"; };
+		00B70C401DC86B6600B9F679 /* MidtransWidgetLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidtransWidgetLabel.h; sourceTree = "<group>"; };
+		00B70C411DC86B6600B9F679 /* MidtransWidgetLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidtransWidgetLabel.m; sourceTree = "<group>"; };
+		00B70C441DC86D9F00B9F679 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		00C685731DC73B010008D08F /* WidgetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WidgetView.xib; sourceTree = "<group>"; };
 		00C685751DC73B110008D08F /* WidgetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetView.h; sourceTree = "<group>"; };
 		00C685761DC73B110008D08F /* WidgetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WidgetView.m; sourceTree = "<group>"; };
@@ -49,6 +55,7 @@
 		0093D94A1DC33EB700393334 = {
 			isa = PBXGroup;
 			children = (
+				00B70C441DC86D9F00B9F679 /* Media.xcassets */,
 				0093D9561DC33EB700393334 /* MidtransWidget */,
 				0093D9551DC33EB700393334 /* Products */,
 				0093D95F1DC33EC300393334 /* Frameworks */,
@@ -86,19 +93,10 @@
 		0093D9661DC33EFA00393334 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				00B70C351DC854C900B9F679 /* Common */,
 				0093D96C1DC33F2B00393334 /* Widget */,
-				0093D96B1DC33F2300393334 /* Base */,
 			);
 			name = Controller;
-			sourceTree = "<group>";
-		};
-		0093D96B1DC33F2300393334 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				0093D9671DC33F0F00393334 /* WidgetBaseViewController.h */,
-				0093D9681DC33F0F00393334 /* WidgetBaseViewController.m */,
-			);
-			name = Base;
 			sourceTree = "<group>";
 		};
 		0093D96C1DC33F2B00393334 /* Widget */ = {
@@ -111,6 +109,33 @@
 			name = Widget;
 			sourceTree = "<group>";
 		};
+		00B70C351DC854C900B9F679 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				00B70C3F1DC86B4F00B9F679 /* Label */,
+				00B70C361DC8553900B9F679 /* Widget TextField */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		00B70C361DC8553900B9F679 /* Widget TextField */ = {
+			isa = PBXGroup;
+			children = (
+				00B70C3B1DC86AB400B9F679 /* MidtransWidgetCustomTextField.h */,
+				00B70C3C1DC86AB400B9F679 /* MidtransWidgetCustomTextField.m */,
+			);
+			name = "Widget TextField";
+			sourceTree = "<group>";
+		};
+		00B70C3F1DC86B4F00B9F679 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				00B70C401DC86B6600B9F679 /* MidtransWidgetLabel.h */,
+				00B70C411DC86B6600B9F679 /* MidtransWidgetLabel.m */,
+			);
+			name = Label;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -118,7 +143,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0093D9691DC33F0F00393334 /* WidgetBaseViewController.h in Headers */,
+				00B70C3D1DC86AB400B9F679 /* MidtransWidgetCustomTextField.h in Headers */,
+				00B70C421DC86B6600B9F679 /* MidtransWidgetLabel.h in Headers */,
 				00C685771DC73B110008D08F /* WidgetView.h in Headers */,
 				0093D9591DC33EB700393334 /* MidtransWidget.h in Headers */,
 			);
@@ -183,7 +209,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C685741DC73B010008D08F /* WidgetView.xib in Resources */,
+				00B70C451DC86D9F00B9F679 /* Media.xcassets in Resources */,
+				00B70C321DC851A300B9F679 /* WidgetView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,8 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B70C3E1DC86AB400B9F679 /* MidtransWidgetCustomTextField.m in Sources */,
 				00C685781DC73B110008D08F /* WidgetView.m in Sources */,
-				0093D96A1DC33F0F00393334 /* WidgetBaseViewController.m in Sources */,
+				00B70C431DC86B6600B9F679 /* MidtransWidgetLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

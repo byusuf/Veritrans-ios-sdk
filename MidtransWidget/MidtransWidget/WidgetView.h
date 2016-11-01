@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class MidtransWidgetCustomTextField;
 @interface WidgetView : UIView
-@property (weak, nonatomic) IBOutlet UITextField *cardNumberTextField;
+@property (weak, nonatomic) IBOutlet MidtransWidgetCustomTextField *cardNumberTextField;
 @property (weak, nonatomic) IBOutlet UIButton *payNowButton;
-@property (weak, nonatomic) IBOutlet UITextField *expiredNumberTextField;
-@property (weak, nonatomic) IBOutlet UITextField *cvvTextField;
+@property (weak, nonatomic) IBOutlet MidtransWidgetCustomTextField *expiredNumberTextField;
+@property (weak, nonatomic) IBOutlet MidtransWidgetCustomTextField *cvvTextField;
 @end

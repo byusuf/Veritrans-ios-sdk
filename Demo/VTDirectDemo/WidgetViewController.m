@@ -9,7 +9,7 @@
 #import "WidgetViewController.h"
 #import <MidtransWidget/MidtransWidget.h>
 @interface WidgetViewController ()
-@property (weak, nonatomic) IBOutlet UIView *viewContainer;
+@property (weak, nonatomic) IBOutlet WidgetView *viewContainer;
 
 @end
 
@@ -17,8 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    WidgetView *widget = [[WidgetView alloc] init];
-    [self.viewContainer addSubview:widget];
+        self.edgesForExtendedLayout = UIRectEdgeNone;
 }
 
 - (void)didReceiveMemoryWarning {
